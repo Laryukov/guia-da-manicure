@@ -1,0 +1,1548 @@
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Como melhorar sua cutilagem | Guia da Manicure
+    </title>
+
+    <meta
+        name="description"
+        content="Guia para manicures que desejam melhorar a técnica de cutilagem, acabamento e organização do atendimento."
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f8f6f6;
+            color: #211d1f;
+
+            line-height: 1.6;
+        }
+
+        a {
+            color: inherit;
+        }
+
+
+        /* ====================================================
+           CABEÇALHO
+        ==================================================== */
+
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #eee8e9;
+
+            position: sticky;
+            top: 0;
+
+            z-index: 50;
+        }
+
+        .navbar {
+            width: min(
+                1180px,
+                calc(100% - 40px)
+            );
+
+            margin: auto;
+
+            height: 72px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .logo span {
+            font-weight: 400;
+        }
+
+        .nav-cta {
+            text-decoration: none;
+
+            border: 1px solid #211d1f;
+
+            padding: 10px 17px;
+
+            border-radius: 999px;
+
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+
+        /* ====================================================
+           HERO
+        ==================================================== */
+
+        .hero {
+            width: min(
+                1180px,
+                calc(100% - 40px)
+            );
+
+            margin: 45px auto 30px;
+
+            display: grid;
+
+            grid-template-columns:
+                1.15fr 0.85fr;
+
+            gap: 55px;
+
+            align-items: center;
+        }
+
+        .tag {
+            display: inline-block;
+
+            background: #f1e7e9;
+
+            padding: 7px 12px;
+
+            border-radius: 999px;
+
+            font-size: 13px;
+            font-weight: bold;
+
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            font-size:
+                clamp(
+                    38px,
+                    5vw,
+                    64px
+                );
+
+            line-height: 1.03;
+
+            letter-spacing: -2px;
+
+            margin: 0 0 25px;
+        }
+
+        .hero-texto {
+            font-size: 20px;
+
+            color: #5b5154;
+
+            max-width: 670px;
+        }
+
+        .botoes {
+            display: flex;
+
+            gap: 14px;
+
+            flex-wrap: wrap;
+
+            margin-top: 30px;
+        }
+
+        .botao-principal {
+            display: inline-block;
+
+            text-decoration: none;
+
+            background: #211d1f;
+            color: #ffffff;
+
+            padding: 17px 26px;
+
+            border-radius: 12px;
+
+            font-weight: bold;
+
+            font-size: 16px;
+        }
+
+        .botao-secundario {
+            display: inline-block;
+
+            text-decoration: none;
+
+            background: #ffffff;
+
+            border: 1px solid #ddd5d7;
+
+            padding: 16px 24px;
+
+            border-radius: 12px;
+
+            font-weight: bold;
+
+            font-size: 16px;
+        }
+
+
+        /* ====================================================
+           HERO VISUAL
+        ==================================================== */
+
+        .hero-card {
+            min-height: 470px;
+
+            border-radius: 28px;
+
+            padding: 35px;
+
+            display: flex;
+
+            flex-direction: column;
+
+            justify-content: space-between;
+
+            background:
+                linear-gradient(
+                    145deg,
+                    #eadadd,
+                    #f7eeee
+                );
+
+            position: relative;
+
+            overflow: hidden;
+        }
+
+        .circulo {
+            width: 260px;
+            height: 260px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(
+                    255,
+                    255,
+                    255,
+                    0.55
+                );
+
+            position: absolute;
+
+            right: -45px;
+            top: -35px;
+        }
+
+        .visual-titulo {
+            font-size: 41px;
+
+            font-weight: 900;
+
+            line-height: 1.05;
+
+            max-width: 360px;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+        .visual-box {
+            background:
+                rgba(
+                    255,
+                    255,
+                    255,
+                    0.82
+                );
+
+            padding: 23px;
+
+            border-radius: 18px;
+
+            position: relative;
+
+            z-index: 2;
+        }
+
+        .visual-box strong {
+            display: block;
+
+            font-size: 22px;
+
+            margin-bottom: 6px;
+        }
+
+
+        /* ====================================================
+           MÉTRICAS
+        ==================================================== */
+
+        .metricas {
+            width: min(
+                1180px,
+                calc(100% - 40px)
+            );
+
+            margin: 20px auto 60px;
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(
+                    3,
+                    1fr
+                );
+
+            background: #ffffff;
+
+            border: 1px solid #eee8e9;
+
+            border-radius: 20px;
+
+            overflow: hidden;
+        }
+
+        .metrica {
+            padding: 28px;
+
+            text-align: center;
+
+            border-right: 1px solid #eee8e9;
+        }
+
+        .metrica:last-child {
+            border-right: none;
+        }
+
+        .metrica-numero {
+            font-size: 28px;
+
+            font-weight: 900;
+        }
+
+        .metrica-label {
+            margin-top: 5px;
+
+            font-size: 14px;
+
+            color: #746a6d;
+        }
+
+
+        /* ====================================================
+           CONTEÚDO
+        ==================================================== */
+
+        .container {
+            width: min(
+                980px,
+                calc(100% - 40px)
+            );
+
+            margin: auto;
+        }
+
+        section {
+            margin: 75px 0;
+        }
+
+        h2 {
+            font-size:
+                clamp(
+                    30px,
+                    4vw,
+                    45px
+                );
+
+            line-height: 1.08;
+
+            letter-spacing: -1px;
+
+            margin: 0 0 20px;
+        }
+
+        .subtitulo {
+            font-size: 19px;
+
+            color: #6a6063;
+
+            margin-bottom: 32px;
+
+            max-width: 760px;
+        }
+
+
+        /* ====================================================
+           CARDS
+        ==================================================== */
+
+        .cards {
+            display: grid;
+
+            grid-template-columns:
+                repeat(
+                    3,
+                    1fr
+                );
+
+            gap: 18px;
+        }
+
+        .card {
+            background: #ffffff;
+
+            border: 1px solid #eee8e9;
+
+            border-radius: 18px;
+
+            padding: 26px;
+        }
+
+        .numero {
+            width: 36px;
+            height: 36px;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            background: #211d1f;
+
+            color: #ffffff;
+
+            font-weight: bold;
+
+            margin-bottom: 18px;
+        }
+
+        .card h3 {
+            font-size: 20px;
+
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            margin: 0;
+
+            color: #62585b;
+        }
+
+
+        /* ====================================================
+           PARA QUEM
+        ==================================================== */
+
+        .para-quem {
+            background: #211d1f;
+
+            color: #ffffff;
+
+            border-radius: 25px;
+
+            padding: 50px;
+
+            display: grid;
+
+            grid-template-columns:
+                0.9fr 1.1fr;
+
+            gap: 50px;
+        }
+
+        .para-quem h2 {
+            color: #ffffff;
+        }
+
+        .check {
+            padding: 14px 0;
+
+            border-bottom:
+                1px solid
+                rgba(
+                    255,
+                    255,
+                    255,
+                    0.15
+                );
+        }
+
+        .check:last-child {
+            border-bottom: none;
+        }
+
+
+        /* ====================================================
+           PRODUTO
+        ==================================================== */
+
+        .produto {
+            background: #ffffff;
+
+            border: 1px solid #eee8e9;
+
+            border-radius: 24px;
+
+            padding: 45px;
+
+            display: grid;
+
+            grid-template-columns:
+                1.1fr 0.9fr;
+
+            gap: 45px;
+
+            align-items: center;
+        }
+
+        .produto-tag {
+            font-size: 13px;
+
+            font-weight: bold;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1px;
+
+            color: #75696d;
+        }
+
+        .produto h3 {
+            font-size: 31px;
+
+            line-height: 1.1;
+
+            margin: 10px 0 20px;
+        }
+
+        .produto-info {
+            background: #f8f6f6;
+
+            border-radius: 18px;
+
+            padding: 27px;
+        }
+
+        .info-linha {
+            display: flex;
+
+            justify-content: space-between;
+
+            gap: 20px;
+
+            padding: 13px 0;
+
+            border-bottom:
+                1px solid #e8e1e3;
+        }
+
+        .info-linha:last-child {
+            border-bottom: none;
+        }
+
+
+        /* ====================================================
+           ALERTA
+        ==================================================== */
+
+        .alerta {
+            background: #fff7df;
+
+            border: 1px solid #f1dfaa;
+
+            border-radius: 17px;
+
+            padding: 24px;
+
+            margin-top: 25px;
+        }
+
+
+        /* ====================================================
+           CTA FINAL
+        ==================================================== */
+
+        .cta-final {
+            background:
+                linear-gradient(
+                    145deg,
+                    #eadadd,
+                    #f9f0f2
+                );
+
+            text-align: center;
+
+            padding: 60px 30px;
+
+            border-radius: 28px;
+        }
+
+        .cta-final h2 {
+            max-width: 720px;
+
+            margin: 0 auto 18px;
+        }
+
+        .cta-final p {
+            max-width: 650px;
+
+            margin: 0 auto 25px;
+
+            color: #665b5e;
+
+            font-size: 18px;
+        }
+
+
+        /* ====================================================
+           TRANSPARÊNCIA
+        ==================================================== */
+
+        .transparencia {
+            font-size: 14px;
+
+            color: #71676a;
+
+            background: #ffffff;
+
+            padding: 22px;
+
+            border-radius: 15px;
+
+            border: 1px solid #eee8e9;
+
+            margin-top: 25px;
+        }
+
+
+        /* ====================================================
+           RODAPÉ
+        ==================================================== */
+
+        footer {
+            margin-top: 70px;
+
+            padding: 35px 20px;
+
+            text-align: center;
+
+            color: #746a6d;
+
+            font-size: 14px;
+
+            border-top: 1px solid #eee8e9;
+        }
+
+
+        /* ====================================================
+           CTA MOBILE
+        ==================================================== */
+
+        .mobile-cta {
+            display: none;
+        }
+
+
+        /* ====================================================
+           RESPONSIVO
+        ==================================================== */
+
+        @media (
+            max-width: 850px
+        ) {
+
+            .hero {
+                grid-template-columns: 1fr;
+
+                gap: 30px;
+
+                margin-top: 30px;
+            }
+
+            .hero-card {
+                min-height: 370px;
+            }
+
+            .metricas {
+                grid-template-columns: 1fr;
+            }
+
+            .metrica {
+                border-right: none;
+
+                border-bottom:
+                    1px solid #eee8e9;
+            }
+
+            .metrica:last-child {
+                border-bottom: none;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .para-quem {
+                grid-template-columns: 1fr;
+
+                padding: 35px 25px;
+            }
+
+            .produto {
+                grid-template-columns: 1fr;
+
+                padding: 30px 24px;
+            }
+
+            .nav-cta {
+                display: none;
+            }
+
+            .mobile-cta {
+                display: block;
+
+                position: fixed;
+
+                bottom: 0;
+                left: 0;
+                right: 0;
+
+                background:
+                    rgba(
+                        255,
+                        255,
+                        255,
+                        0.96
+                    );
+
+                padding: 12px 16px;
+
+                border-top:
+                    1px solid #e8e1e3;
+
+                z-index: 100;
+            }
+
+            .mobile-cta a {
+                display: block;
+
+                text-align: center;
+
+                background: #211d1f;
+
+                color: #ffffff;
+
+                text-decoration: none;
+
+                padding: 15px;
+
+                border-radius: 10px;
+
+                font-weight: bold;
+            }
+
+            footer {
+                padding-bottom: 100px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+
+            Guia <span>da Manicure</span>
+
+        </div>
+
+
+        <a
+            class="nav-cta"
+            href="#treinamento"
+        >
+
+            Conhecer treinamento
+
+        </a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+
+    <!-- ======================================================
+         HERO
+    ======================================================= -->
+
+    <section class="hero">
+
+        <div>
+
+            <div class="tag">
+
+                GUIA PARA MANICURES
+
+            </div>
+
+
+            <h1>
+
+                Sua cutilagem pode melhorar
+                antes mesmo de você tentar
+                trabalhar mais rápido.
+
+            </h1>
+
+
+            <p class="hero-texto">
+
+                Técnica, controle,
+                preparação e acabamento
+                fazem diferença no resultado.
+
+                Veja pontos importantes para
+                quem deseja aperfeiçoar
+                a cutilagem profissional.
+
+            </p>
+
+
+            <div class="botoes">
+
+                <a
+                    class="botao-principal"
+                    href="#guia"
+                >
+
+                    Ver o guia
+
+                </a>
+
+
+                <a
+                    class="botao-secundario"
+                    href="#treinamento"
+                >
+
+                    Ver treinamento analisado
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+            <div class="circulo"></div>
+
+
+            <div class="visual-titulo">
+
+                Controle.
+                Precisão.
+                Acabamento.
+
+            </div>
+
+
+            <div class="visual-box">
+
+                <strong>
+
+                    Antes da velocidade,
+                    busque consistência.
+
+                </strong>
+
+                Um bom resultado depende
+                de mais do que simplesmente
+                remover cutícula.
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         MÉTRICAS
+    ======================================================= -->
+
+    <div class="metricas">
+
+        <div class="metrica">
+
+            <div class="metrica-numero">
+
+                4.9/5
+
+            </div>
+
+            <div class="metrica-label">
+
+                avaliação observada
+                na plataforma
+
+            </div>
+
+        </div>
+
+
+        <div class="metrica">
+
+            <div class="metrica-numero">
+
+                até R$ 99,00
+
+            </div>
+
+            <div class="metrica-label">
+
+                preço informado
+                no momento da análise
+
+            </div>
+
+        </div>
+
+
+        <div class="metrica">
+
+            <div class="metrica-numero">
+
+                100% online
+
+            </div>
+
+            <div class="metrica-label">
+
+                modalidade do treinamento
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container">
+
+
+        <!-- ==================================================
+             GUIA
+        =================================================== -->
+
+        <section id="guia">
+
+            <h2>
+
+                O que observar para melhorar
+                sua cutilagem?
+
+            </h2>
+
+
+            <p class="subtitulo">
+
+                Em vez de pensar somente
+                em velocidade, vale avaliar
+                alguns fundamentos do processo.
+
+            </p>
+
+
+            <div class="cards">
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        1
+
+                    </div>
+
+
+                    <h3>
+
+                        Controle
+
+                    </h3>
+
+
+                    <p>
+
+                        Trabalhar com movimentos
+                        controlados ajuda a manter
+                        maior previsibilidade
+                        durante o procedimento.
+
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        2
+
+                    </div>
+
+
+                    <h3>
+
+                        Preparação
+
+                    </h3>
+
+
+                    <p>
+
+                        A organização da área
+                        de trabalho e dos
+                        instrumentos faz parte
+                        do resultado final.
+
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        3
+
+                    </div>
+
+
+                    <h3>
+
+                        Acabamento
+
+                    </h3>
+
+
+                    <p>
+
+                        Avaliar uniformidade
+                        e acabamento ajuda
+                        a identificar pontos
+                        que ainda precisam
+                        ser aperfeiçoados.
+
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             PARA QUEM
+        =================================================== -->
+
+        <section class="para-quem">
+
+            <div>
+
+                <h2>
+
+                    Para quem uma especialização
+                    pode fazer sentido?
+
+                </h2>
+
+
+                <p>
+
+                    O objetivo não é dizer que
+                    toda manicure precisa fazer
+                    um curso.
+
+                    A decisão depende do nível
+                    atual, das dificuldades e
+                    dos objetivos profissionais.
+
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <div class="check">
+
+                    ✓ Quem está começando
+                    e busca uma sequência
+                    estruturada de aprendizado.
+
+                </div>
+
+
+                <div class="check">
+
+                    ✓ Quem já atende,
+                    mas considera o resultado
+                    inconsistente.
+
+                </div>
+
+
+                <div class="check">
+
+                    ✓ Quem deseja estudar
+                    especificamente a técnica
+                    de cutilagem.
+
+                </div>
+
+
+                <div class="check">
+
+                    ✓ Quem prefere um treinamento
+                    organizado em vez de conteúdos
+                    isolados.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             ANTES DE COMPRAR
+        =================================================== -->
+
+        <section>
+
+            <h2>
+
+                Antes de comprar qualquer curso,
+                confira estes pontos.
+
+            </h2>
+
+
+            <p class="subtitulo">
+
+                Isso vale para este treinamento
+                e para qualquer outro curso online.
+
+            </p>
+
+
+            <div class="cards">
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        1
+
+                    </div>
+
+
+                    <h3>
+
+                        Conteúdo
+
+                    </h3>
+
+
+                    <p>
+
+                        Veja os assuntos abordados
+                        e se correspondem ao que
+                        você realmente precisa.
+
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        2
+
+                    </div>
+
+
+                    <h3>
+
+                        Seu nível atual
+
+                    </h3>
+
+
+                    <p>
+
+                        Um treinamento avançado
+                        pode não ser o melhor
+                        começo para quem ainda
+                        precisa dos fundamentos.
+
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="numero">
+
+                        3
+
+                    </div>
+
+
+                    <h3>
+
+                        Informações oficiais
+
+                    </h3>
+
+
+                    <p>
+
+                        Confira preço,
+                        garantia, condições,
+                        acesso e suporte
+                        diretamente na página
+                        oficial.
+
+                    </p>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             PRODUTO
+        =================================================== -->
+
+        <section
+            id="treinamento"
+            class="produto"
+        >
+
+            <div>
+
+                <div class="produto-tag">
+
+                    TREINAMENTO ANALISADO
+
+                </div>
+
+
+                <h3>
+
+                    Curso de Cutilagem para Manicures com Faby Cardoso - Especialização
+
+                </h3>
+
+
+                <p>
+
+                    Encontramos este treinamento
+                    durante nossa pesquisa
+                    sobre especialização
+                    em cutilagem.
+
+                </p>
+
+
+                <p>
+
+                    Antes de decidir,
+                    consulte diretamente
+                    a página oficial para
+                    verificar o conteúdo
+                    atualizado e todas
+                    as condições da oferta.
+
+                </p>
+
+
+                <a
+                    class="botao-principal"
+                    href="https://go.hotmart.com/P107103647O?src=site-organico"
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                >
+
+                    Ver informações oficiais
+
+                </a>
+
+
+                <div class="alerta">
+
+                    <strong>
+
+                        Importante:
+
+                    </strong>
+
+                    valores e condições
+                    podem ser alterados
+                    pelo produtor.
+
+                    A página oficial
+                    é a fonte definitiva
+                    das informações comerciais.
+
+                </div>
+
+            </div>
+
+
+            <div class="produto-info">
+
+
+                <div class="info-linha">
+
+                    <span>
+
+                        Plataforma
+
+                    </span>
+
+                    <strong>
+
+                        Hotmart
+
+                    </strong>
+
+                </div>
+
+
+                <div class="info-linha">
+
+                    <span>
+
+                        Preço observado
+
+                    </span>
+
+                    <strong>
+
+                        até R$ 99,00
+
+                    </strong>
+
+                </div>
+
+
+                <div class="info-linha">
+
+                    <span>
+
+                        Avaliação observada
+
+                    </span>
+
+                    <strong>
+
+                        4.9/5
+
+                    </strong>
+
+                </div>
+
+
+                <div class="info-linha">
+
+                    <span>
+
+                        Modalidade
+
+                    </span>
+
+                    <strong>
+
+                        Online
+
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CTA FINAL
+        =================================================== -->
+
+        <section class="cta-final">
+
+            <h2>
+
+                Quer conferir se o treinamento
+                faz sentido para você?
+
+            </h2>
+
+
+            <p>
+
+                Consulte a página oficial,
+                veja o conteúdo,
+                condições atuais
+                e tome sua decisão
+                com base nas informações
+                fornecidas pelo produtor.
+
+            </p>
+
+
+            <a
+                class="botao-principal"
+                href="https://go.hotmart.com/P107103647O?src=site-organico"
+                target="_blank"
+                rel="nofollow sponsored noopener"
+            >
+
+                Ir para a página oficial
+
+            </a>
+
+        </section>
+
+
+        <!-- ==================================================
+             TRANSPARÊNCIA
+        =================================================== -->
+
+        <div class="transparencia">
+
+            <strong>
+
+                Transparência sobre afiliados:
+
+            </strong>
+
+            esta página contém links de afiliado.
+
+            Caso uma compra seja realizada
+            por meio desses links,
+            podemos receber uma comissão.
+
+            Isso não aumenta o valor pago
+            pelo comprador.
+
+        </div>
+
+
+    </div>
+
+
+</main>
+
+
+<footer>
+
+    <strong>
+
+        Guia da Manicure
+
+    </strong>
+
+    <br>
+
+    Conteúdo independente
+    de caráter informativo.
+
+    Consulte sempre as informações
+    oficiais antes de realizar uma compra.
+
+</footer>
+
+
+<!-- ========================================================
+     BOTÃO FIXO PARA CELULAR
+========================================================= -->
+
+<div class="mobile-cta">
+
+    <a
+        href="https://go.hotmart.com/P107103647O?src=site-organico"
+        target="_blank"
+        rel="nofollow sponsored noopener"
+    >
+
+        Ver treinamento
+
+    </a>
+
+</div>
+
+
+</body>
+
+</html>
