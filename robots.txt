@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laryukov.github.io/guia-da-manicure/sitemap.xml
